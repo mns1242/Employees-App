@@ -1,0 +1,15 @@
+.img-fluid {
+    border-radius: 50%;
+    width: 50%;
+    transition: width 0.3s ease-out ;
+}
+.img-fluid:hover{
+    width: 80%;
+}
+.changesize{
+    transition: box-shadow 0.3s ease-out ;
+
+}
+.changesize:hover{
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.336);
+}

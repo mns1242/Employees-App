@@ -1,0 +1,43 @@
+<div class="container mt-4">
+    <div class="row">
+        <div class="col">
+            <h3> {{contact.name.first}} {{contact.name.last}}'s Details</h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id corporis sunt veritatis tempore at repellat voluptatum sit dolor earum perferendis praesentium, sed delectus dolores qui. Sint quia suscipit maiores est tempore adipisci obcaecati officia nesciunt.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="container ">
+    <div class="row">
+        <div class="col-md-8 mt-4">
+            <div class="card shadow-lg  backcolor">
+                <div class="card-body ">
+                    <div class="row ">
+                        <div class="col-md-3 ">
+                            <img [src]="contact.picture.large" alt="">
+
+                        </div>
+                        <div class="col md-9 ">
+                            <ul class="list-group shadow-lg ">
+                                <li class="list-group-item ">Name: {{contact.name.first}} {{contact.name.last}}</li>
+                                <li class="list-group-item">User_Name: {{contact.login.username}}</li>
+                                <li class="list-group-item">Age: {{contact.dob.age}}</li>
+                                <li class="list-group-item">Email: {{contact.email}}</li>
+                                <li class="list-group-item">Cell: {{contact.cell}}</li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="card-footer">
+                   
+                        <a routerLink="/contact-list" class="btn btn-danger ">Back</a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

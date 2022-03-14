@@ -1,0 +1,12 @@
+.TextStyle{
+    text-align: center; 
+    align-items: center;
+    margin:10%;
+   
+    font-size: 20px;
+   
+    
+    border-radius: 15px;
+    overflow: hidden;
+   
+}
